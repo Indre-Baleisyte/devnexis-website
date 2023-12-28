@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Devnexis</title>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/x-icon" href="/img/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/22a1384484.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/gsap.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- NAVIGATION BAR -->
+    <header>
+      <nav class="navbar">
+        <!-- LOGO -->
+        <div class="logo">
+          <a href="/index.html#"><img src="img/Logo.svg" /></a>
+        </div>
+
+        <!-- navigation links -->
+
+        <div>
+          <ul class="nav">
+            <li><a href="/index.html#services">Services</a></li>
+            <li><a href="/portfolio.html">Portfolio</a></li>
+            <li><a href="/index.html#about">About Us</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+          </ul>
+          <div class="menu"><i class="fa-solid fa-bars"></i></div>
+        </div>
+
+        <!-- contacts -->
+
+        <div class="nav-contact-side">
+          <a class="language" href="#">LT</a>
+          <a class="language" href="/index.html">EN</a>
+          <a class="contact-button" href="/index.html#contact">Contact Us</a>
+        </div>
+
+        <!-- dropdown -->
+
+        <div class="dropdown-menu">
+          <ul>
+            <li><a href="/index.html#services">Services</a></li>
+            <li><a href="/portfolio.html">Portfolio</a></li>
+            <li><a href="/index.html#about">About Us</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+            <li>
+              <a class="contact-button" href="/index.html#contact"
+                >Contact Us</a
+              >
+            </li>
+
+            <ul class="drop-language">
+              <li><a class="language" href="#">LT</a></li>
+              <li><a class="language" href="/index.html">EN</a></li>
+            </ul>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- HERO SECTION -->
+
+    <div class="hero">
+      <div>
+        <h1 class="landing-text">
+          We specialize in the creation and implementation<br />
+          of web & mobile applications.
+        </h1>
+        <p class="landing-text-p">
+          Keeping up with the latest technological changes and choose the most
+          efficient<br />
+          solutions for your products, thereby reducing development time and
+          costs.
+        </p>
+      </div>
+
+      <div>
+        <img class="landing-img" src="/img/illustrations/main.svg" />
+      </div>
+    </div>
+
+    <!-- SERVICES SECTION -->
+    <div>
+      <h1 class="header-service" id="services">SERVICES</h1>
+
+      <div class="container">
+        <div class="card">
+          <div class="icon">
+            <img src="/img/services icons/laptop-solid.svg" />
+          </div>
+          <div class="text">
+            <h2>Professional Team</h2>
+            <p>
+              Experienced programmers, system architects, UI/UX specialists, and
+              project managers will help you implement your projects. Our IT
+              specialists will work with you and your projects, efficiently
+              planning and optimizing time.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="icon">
+            <img src="img/services icons/browser-window-icon.svg" />
+          </div>
+          <div class="text">
+            <h2>Website Development</h2>
+            <p>
+              Do you have an idea but don't know where to start? We will help
+              you define the product and its key features. Then we will create
+              an MVP or essential elements that will be included in the final
+              version of the product.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="icon">
+            <img src="img/services icons/magnifying-glass-icon.svg" />
+          </div>
+          <div class="text">
+            <h2>SEO Optimization</h2>
+            <p>
+              We create unique IT solutions tailored to your business needs,
+              which generate value for both you and your clients.Whether you are
+              a startup or a large corporation, our experienced team of IT
+              specialists is ready to assist you in all stages of software
+              development.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="icon">
+            <img src="img/services icons/keyboard-icon.svg" />
+          </div>
+          <div class="text">
+            <h2>CRO Solutions</h2>
+            <p>
+              CRO (Conversion Rate Optimization) solutions: we investigate
+              visitor behavior patterns, identify errors, and optimize website
+              or app elements to increase the likelihood of visitors performing
+              the desired action on your website.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="icon">
+            <img src="img/services icons/pen-icon.svg" />
+          </div>
+          <div class="text">
+            <h2>UX/UI Design</h2>
+            <p>
+              A high-quality and user-friendly website design instills trust and
+              demonstrates that the company pays attention to details and
+              visitor needs. Your website is your business's calling card!
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="icon">
+            <img src="img/services icons/server-icon.svg" />
+          </div>
+          <div class="text">
+            <h2>CRM Solutions</h2>
+            <p>
+              Our team will help you effectively manage customer data,
+              understand their needs and goals, and provide more personalized
+              service. We create and implement CRM systems that allow you to
+              manage your customers and achieve exceptional results.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tools-section" width="100vw">
+      <div class="tools">
+        <h1>TOOLS WE USE</h1>
+      </div>
+
+      <div class="tools-icons horizontal-scrolling-items" id="scrollContainer">
+        <span class="slide slide-start"
+          ><img class="tool" src="img/figma-icon.svg"
+        /></span>
+        <span class="slide"
+          ><img class="tool" src="img/javascript-icon.svg"
+        /></span>
+        <span class="slide"
+          ><img class="tool" src="img/w3_html5-icon.svg"
+        /></span>
+        <span class="slide"
+          ><img class="tool" src="img/w3_css-icon.svg"
+        /></span>
+        <span class="slide"
+          ><img class="tool" src="img/reactjs-icon.svg"
+        /></span>
+        <span class="slide"
+          ><img class="tool" src="img/WordPress-logotype-wmark-white.png"
+        /></span>
+        <span class="slide"
+          ><img class="tool" src="img/terraform-svgrepo-com.svg"
+        /></span>
+        <span class="slide"
+          ><img class="tool" src="img/typescriptlang-icon.svg"
+        /></span>
+        <span class="slide"
+          ><img class="tool" src="img/nodejs-icon.svg"
+        /></span>
+        <span class="slide"
+          ><img class="tool" src="img/angular-icon.svg"
+        /></span>
+        <span class="slide"
+          ><img class="tool" src="img/amazon_aws-icon.svg"
+        /></span>
+        <span class="slide"
+          ><img class="tool" src="img/microsoft-icon.svg"
+        /></span>
+        <span class="slide"
+          ><img class="tool" src="img/graphql-icon.svg"
+        /></span>
+        <span class="slide"
+          ><img class="tool" src="img/docker-icon.svg"
+        /></span>
+        <span class="slide"
+          ><img class="tool" src="img/kubernetes-icon.svg"
+        /></span>
+        <span class="slide"
+          ><img class="tool" src="img/laravel-icon.svg"
+        /></span>
+        <span class="slide"><img class="tool" src="img/vuejs-icon.svg" /></span>
+        <span class="slide slide-end"
+          ><img class="tool" src="img/php-icon.svg"
+        /></span>
+
+        <div onclick="prev()" class="control-prev-btn">
+          <i class="fas fa-arrow-left"></i>
+        </div>
+
+        <div onclick="next()" class="control-next-btn">
+          <i class="fas fa-arrow-right"></i>
+        </div>
+        <div class="overlay"></div>
+      </div>
+    </div>
+
+    <!-- PORTFOLIO -->
+
+    <div class="portfolio">
+      <h1 class="header">PORTFOLIO</h1>
+
+      <div class="portfolio-div">
+        <img class="portfolio-img" src="/img/portfolio-img/inovacijos.webp" />
+        <div>
+          <h2>Inovacijų agentūros naujos svetainės UX/UI auditas</h2>
+          <p>
+            Naująjai Lietuvos Inovacijų agentūros svetainei buvo atliktas UX/UI
+            (vartotojo sąveikos ir patirties) auditas. Šio audito tikslas buvo
+            pagerinti puslapio vartotojo patirtį ir sąsajos elementus. Proceso
+            metu buvo atliekama išsami dabartinio puslapio analizė naudojantis
+            Google Analytics ir Microsoft Clarity įrankiais, identifikuotos
+            problemos ir pasiūlyti patobulinimai. Šio proceso tikslas buvo
+            užtikrinti, kad puslapis atitinktų naudotojų lūkesčius, leistu jiems
+            efektyviai naudotis naująja svetaine. <br /><br />
+            Naudotos technologijos: Google Analytics, Microsoft Clarity
+          </p>
+        </div>
+      </div>
+      <div class="pbutton">
+        <a class="portfolio-button" href="/portfolio.html"
+          >More about our work -></a
+        >
+      </div>
+    </div>
+
+    <!-- ABOUT DEVNEXIS -->
+
+    <div class="about-section" id="about">
+      <div class="abouth1">
+        <h1 class="header">ABOUT US</h1>
+      </div>
+      <div class="about-cont">
+        <div>
+          <img class="about-img" src="/img/illustrations/about.svg" />
+        </div>
+        <div>
+          <p class="second-header">
+            We are more than just a software development company - we are
+            architects of innovation and builders of digital solutions.
+            <br />
+            <br />
+            With a passion for cutting-edge technology, we design and develop
+            web and mobile applications that redefine user experiences and drive
+            business success. We are dedicated to transforming ideas into
+            robust, scalable solutions.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <h1 class="header" style="padding-top: 80px; padding-bottom: 80px">
+      OUR KEY BENEFITS
+    </h1>
+
+    <div class="container-benefit">
+      <div class="benefit benefit-1">
+        <div class="icon">
+          <img src="/img/benefit-icons/SVG/client.svg" />
+        </div>
+        <div class="benefit-text">
+          <h2>Client-Centric Approach</h2>
+          <p>
+            At Devnexis, our clients take center stage in every project. We
+            prioritize understanding your unique business needs and aspirations,
+            tailoring our solutions to drive your
+            success.&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+          </p>
+        </div>
+      </div>
+
+      <div class="benefit">
+        <div class="icon">
+          <img src="img/benefit-icons/SVG/time.svg" />
+        </div>
+        <div class="benefit-text">
+          <h2>Rapid Time-to-Market</h2>
+          <p>
+            With a strategic and agile development methodology, we swiftly
+            validate assumptions, ensuring a quicker time-to-market for your
+            solutions. This not only accelerates your product launch but also
+            optimizes resource allocation.
+          </p>
+        </div>
+      </div>
+
+      <div class="benefit">
+        <div class="icon">
+          <img src="img/benefit-icons/SVG/destination.svg" />
+        </div>
+        <div class="benefit-text">
+          <h2>Agile Development Excellence</h2>
+          <p>
+            Our commitment to Agile methodologies minimizes risks, enhances
+            flexibility, fosters customer focus, and ensures the superior
+            quality of products. We build with precision, predictability, and
+            adaptability in mind.
+          </p>
+        </div>
+      </div>
+
+      <div class="benefit">
+        <div class="icon">
+          <img src="img/benefit-icons/SVG/business.svg" />
+        </div>
+        <div class="benefit-text">
+          <h2>Supporting Business Growth</h2>
+          <p>
+            Devnexis takes care of assembling dedicated teams of skilled
+            developers, freeing you to concentrate on product strategy,
+            delivery, sales, and overall business vision. We become your
+            reliable technology partner in achieving sustainable growth.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT FORM -->
+
+    <div class="contact-section" id="contact" style="padding-top: 100px">
+      <div>
+        <h1 class="header" style="padding-bottom: 80px">CONTACT US</h1>
+        <h2>
+          We'd love to hear from you! Drop us a line below and we'll do our best
+          to get<br />
+          back to you within one business day.
+        </h2>
+      </div>
+
+      <div class="form">
+        <form
+          action="https://formsubmit.co/79deb0a56eeb03242503e8cb70cc9b86"
+          method="POST"
+        >
+          <div class="name-input">
+            <div>
+              <label for="name" class="required">First Name:</label><br />
+              <input
+                type="text"
+                id="name"
+                name="name"
+                autocomplete="given-name"
+                placeholder="Your Name..."
+                required
+              /><br /><br />
+            </div>
+            <div>
+              <label for="last_name" class="required">Last Name:</label><br />
+              <input
+                type="text"
+                id="last_name"
+                name="last_name"
+                autocomplete="family-name"
+                placeholder="Your Last Name..."
+                required
+              /><br /><br />
+            </div>
+          </div>
+          <div>
+            <label for="email" class="required">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              autocomplete="off"
+              placeholder="example@mail.com"
+              required
+            /><br /><br />
+          </div>
+          <div>
+            <label for="message" class="required">Message:</label><br />
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Your Message..."
+              required
+            ></textarea
+            ><br /><br />
+          </div>
+          <input type="hidden" name="_next" value="https://devnexis.madebyindre.com/thanks.html">
+          <input type="hidden" name="_subject" value="New submission!" />
+          <input type="hidden" name="_template" value="table" />
+          <div class="send-button">
+            <button type="submit" id="btn">SUBMIT</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- OUR PARTNERS -->
+
+    <div class="partners-section">
+      <div>
+        <h1 class="header" style="padding-bottom: 80px">OUR PARTNERS</h1>
+      </div>
+      <div class="partners-section1">
+        <img class="moravio" src="img/moravio.png" />
+        <p>
+          Established in 2011, "Moravio" has been providing high-quality<br />
+          programming services for over 10 years.
+        </p>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+
+    <div class="footer">
+      <div>
+        <a href="/index.html#"
+          ><img class="logo-foot" src="img/SVG/logo-white.svg"
+        /></a>
+      </div>
+
+      <div class="privacy-text">
+        <h2><a href="/privacy-policy.html">Privacy Policy</a></h2>
+        <h2>© 2023 Devnexis. All rights reserved.</h2>
+      </div>
+
+      <div class="icons">
+        <a clas="fb" href="https://www.facebook.com/devnexis"
+          ><img src="/img/fb-icon.png"
+        /></a>
+        <a clas="fb" href="https://www.linkedin.com/company/devnexis/"
+          ><img src="/img/linkedin-icon.png"
+        /></a>
+      </div>
+    </div>
+
+    <div class="box">
+      <a
+        href="#popup-box"
+        onclick="document.getElementById('popup-box').style.display='block'"
+      >
+        <i
+          class="fa-solid fa-message fa-flip-horizontal fa-2x"
+          style="color: #0112e8"
+        ></i>
+      </a>
+    </div>
+
+    <div id="popup-box" class="modal">
+      <div class="content">
+        <b>Send us a message!</b>
+
+        <div class="wrapper">
+          <form
+            action="https://formsubmit.co/79deb0a56eeb03242503e8cb70cc9b86"
+            method="POST"
+          >
+            <div>
+              <label for="name" class="required">First Name:</label><br />
+              <input
+                type="text"
+                id="name"
+                name="name"
+                autocomplete="given-name"
+                placeholder="Your Name..."
+                required
+              /><br /><br />
+            </div>
+            <div>
+              <label for="last_name" class="required">Last Name:</label><br />
+              <input
+                type="text"
+                id="last_name"
+                name="last_name"
+                autocomplete="family-name"
+                placeholder="Your Last Name..."
+                required
+              /><br /><br />
+            </div>
+
+            <div>
+              <label for="email" class="required">Email:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                autocomplete="off"
+                placeholder="example@mail.com"
+                required
+              /><br /><br />
+            </div>
+            <div>
+              <label for="message" class="required">Message:</label><br />
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Your Message..."
+                required
+              ></textarea
+              ><br /><br />
+              
+            </div>
+            <input type="hidden" name="_next" value="https://devnexis.madebyindre.com/thanks.html">
+            <input type="hidden" name="_subject" value="New submission!" />
+            <input type="hidden" name="_template" value="table" />
+            <div class="send-button">
+              <button type="submit" id="btn">SUBMIT</button>
+            </div>
+            <!-- <input type="submit" value="Submit"> -->
+          </form>
+        </div>
+
+        <!-- <a href="#contact" class="box-close">
+          <i class="fa-solid fa-xmark"></i>
+        </a> -->
+
+        <span
+          onclick="document.getElementById('popup-box').style.display='none'"
+          class="w3-button w3-display-topright"
+          ><i class="fa-solid fa-xmark box-close"></i
+        ></span>
+      </div>
+    </div>
+
+    <!-- cookies -->
+
+    <div id="cookieNotice" class="light display-right">
+      <div id="closeIcon" style="display: none"></div>
+      <div class="title-wrap">
+        <span class="material-symbols-outlined">
+          <img src="/img/SVG/cookie_FILL0_wght400_GRAD0_opsz24.svg" />
+        </span>
+        <h4>Cookie Consent</h4>
+      </div>
+      <div class="content-wrap">
+        <div class="msg-wrap">
+          <p>
+            This website uses cookies or similar technologies, to enhance your
+            browsing experience and provide personalized recommendations. By
+            continuing to use our website, you agree to our
+            <a style="color: #115cfa" href="/privacy-policy">Privacy Policy</a>
+          </p>
+          <div class="btn-wrap">
+            <button class="btn-primary" onclick="acceptCookieConsent();">
+              Accept
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

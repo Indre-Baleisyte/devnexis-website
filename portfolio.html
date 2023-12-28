@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Devnexis</title>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/x-icon" href="/img/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/22a1384484.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/gsap.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- NAVIGATION BAR -->
+    <header>
+      <nav class="navbar">
+        <!-- LOGO -->
+        <div class="logo">
+          <a href="/index.html#"><img src="img/Logo.svg" /></a>
+        </div>
+
+        <!-- navigation links -->
+
+        <div>
+          <ul class="nav">
+            <li><a href="/index.html#services">Services</a></li>
+            <li><a href="/portfolio.html">Portfolio</a></li>
+            <li><a href="/index.html#about">About Us</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+          </ul>
+          <div class="menu"><i class="fa-solid fa-bars"></i></div>
+        </div>
+
+        <!-- contacts -->
+
+        <div class="nav-contact-side">
+          <a class="language" href="#">LT</a>
+          <a class="language" href="/index.html">EN</a>
+          <a class="contact-button" href="/index.html#contact">Contact Us</a>
+        </div>
+
+        <!-- dropdown -->
+
+        <div class="dropdown-menu">
+          <ul>
+            <li><a href="/index.html#services">Services</a></li>
+            <li><a href="/portfolio.html">Portfolio</a></li>
+            <li><a href="/index.html#about">About Us</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+            <li>
+              <a class="contact-button" href="/index.html#contact"
+                >Contact Us</a
+              >
+            </li>
+
+            <ul class="drop-language">
+              <li><a class="language" href="#">LT</a></li>
+              <li><a class="language" href="/index.html">EN</a></li>
+            </ul>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="portfolio-top">
+      <img class="portfolio-hero-img" src="/img/illustrations/portfolio.svg" />
+      <h1 class="header">PORTFOLIO</h1>
+      <p>A showcase of our software development work</p>
+    </div>
+
+    <div class="portfolio-container">
+      <div class="portfolio-card">
+        <div>
+          <img class="portfolio-img" src="/img/portfolio-img/inovacijos.webp" />
+        </div>
+        <div>
+          <h2>Inovacijų agentūros naujos svetainės UX/UI auditas</h2>
+          <p>
+            Naująjai Lietuvos Inovacijų agentūros svetainei buvo atliktas UX/UI
+            (vartotojo sąveikos ir patirties) auditas. Šio audito tikslas buvo
+            pagerinti puslapio vartotojo patirtį ir sąsajos elementus. Proceso
+            metu buvo atliekama išsami dabartinio puslapio analizė naudojantis
+            Google Analytics ir Microsoft Clarity įrankiais, identifikuotos
+            problemos ir pasiūlyti patobulinimai. Šio proceso tikslas buvo
+            užtikrinti, kad puslapis atitinktų naudotojų lūkesčius, leistu jiems
+            efektyviai naudotis naująja svetaine. <br /><br />
+            Naudotos technologijos: Google Analytics, Microsoft Clarity
+          </p>
+        </div>
+      </div>
+
+      <div class="portfolio-card">
+        <div>
+          <h2>Stardio - fitneso platforma</h2>
+          <p>
+            Mūsų uždavinys buvo sukurti platformą, panašią į "Zoom", tačiau
+            nedidelio biudžeto rėmuose. Klientas kreipėsi į mus su "OpenVid"
+            technologija, kurios deja, nebuvo galima vystyti taip, kaip buvo
+            norima. Pradėjome dirbti su "Livekit" ir kartu sukūrėme planą prieš
+            pradėdami perėjimą iš vienos technologijos į kitą, kad įsitikintume,
+            jog mūsų priimtas sprendimas kurs pridėtinę vertę. Dabar prie
+            platformos gali prisijungti šimtai tūkstančių vartotojų vienu metu.
+            Sukūrėme redaktorių, panašų į tuos, kuriuos naudoja filmavimo
+            pramonės profesionalai, tai pat vartotojo sąsają, kuri yra
+            sudėtinga, bet kartu ir intuityvi. Pirmiausia naudotojas į laiko
+            juostą įterpia konkrečių pratimų ir muzikos blokus. Tada, kai
+            treneris pradeda pamoką, programa realiu laiku parodo jam ir jos
+            dalyviams pratimus. Naudojome Angular technologiją frontend'ui ( AWS
+            lambda serverless funkcijos užtikrina jos veikimą). Mokėjimams tarp
+            "Stardio" ir instruktorių bei tarp narių ir "Stardio" atlikti
+            naudojame "Stripe". Backend’ui naudojome ** AWS Amplify sistema,
+            DynamoDB, TypeScript su Node.js** technologijas. <br /><br />
+            Naudotos technologijos: Terraform, Node.js, Angular JS,
+            TypeScript,Amazon Web Services (AWS), Amplify AWS, GrapohQL, LiveKit
+          </p>
+        </div>
+        <div>
+          <img class="portfolio-img" src="/img/stardio.png" />
+        </div>
+      </div>
+
+      <div class="portfolio-card">
+        <div>
+          <img class="portfolio-img" src="/img/portfolio-img/JET.webp" />
+        </div>
+        <div>
+          <h2>JET - dirbtinio intelekto verslo asistentas</h2>
+          <p>
+            Įsivaizduokite, kad savo darbo vietoje turite Siri arba "Google"
+            asistentą. Rezervuokite stalus, kambarius, planuokite susitikimus.
+            Visa tai ir dar daugiau galite padaryti tiesiog paprašę JET. JET
+            naudoja dirbtinio intelekto technologiją, panašią į "OpenAI"
+            ChatGPT, todėl ja lengva naudotis. Tiesiog pasakykite: ,,Užsakykite
+            man stalą kitam pirmadieniui nuo 13 iki 17 val." ir JET iš karto
+            parodys visų laisvų stalų žemėlapį. Kaip sukūrėme dirbtinio
+            intelekto asistentą?
+          </p>
+          <ul class="portfolio-list">
+            <li>9 frontend'o ir backend'o programuotojų komanda</li>
+            <li>3 + metai bendradarbiavimo</li>
+            <li>DevOps, Backend, Frontend</li>
+            <li>Analizė, konsultacijos</li>
+            <li>
+              Pokalbių robotų (Chatbot) kūrimas ir dirbtinio intelekto mokymasis
+              - "Google Dialogflow
+            </li>
+            <li>
+              Žemėlapių sprendimas - naudojant "OpenStreet" žemėlapių biblioteka
+              "Mapnik"
+            </li>
+            <li>
+              Bendradarbiavimas kuriant programėlės ir pokalbių srautų dizainą
+            </li>
+            <li>Lyderiaujantys "iOS" ir "Android" kūrėjai</li>
+          </ul>
+          <p>
+            Klientas - JLL - "Fortune 200" sąraše esanti bendrovė. Ji vykdo
+            veiklą nekilnojamojo turto srityje 80 pasaulio šalių. Pastato planas
+            buvo sukūrtas su žemėlapių integravimo į "iOS" ir "Android"
+            programėles metodu, naudodojant biblioteką "Mapnik".
+
+            <br /><br />
+            Naudotos technologijos: Docker, Dialogflow, Node.js, Next.js,
+            TypeScript, Kubernetes, React, Google Cloud Computing (GCP), Mapnik,
+            JavaScript, OpenAI
+          </p>
+        </div>
+      </div>
+
+      <div class="portfolio-card">
+        <div>
+          <h2>CENTRL įmonės svetainė</h2>
+          <p>
+            JAV bendrovė "CENTRL Inc.", valdo pažangią platformą, kuri klientams
+            siūlo privatumo, kibernetinio saugumo ir trečiųjų šalių rizikos
+            valdymo sprendimų įrankius. Bendrovei "CENTRL Inc." reikėjo
+            naujausių technologijų su greita ir patogia vartotojo sąsaja, kuri
+            taip pat būtų saugi, kad sumažintų galimos kibernetinės atakos
+            tikimybę.
+
+            <br />
+            Dirbome kartu su klientu:
+          </p>
+          <ul class="portfolio-list">
+            <li>
+              kad sukurtume jų svetainės techninį projektą, kurio rezultatas -
+              įmonės pristatymas, paremtas labai greita, statiška ir saugia
+              karkaso technologija HUGO.
+            </li>
+            <li>
+              mūsų bendradarbiavimas apėmė ne tik pagrindinės svetainės, bet ir
+              kelių mikrotinklalapių kūrimą. Tai nedidelės, bet unikalios,
+              vienos paskirties svetainės, kurios veikia kartu su pagrindine
+              svetaine ir užtikrina papildomą lankytojų srautą.
+            </li>
+          </ul>
+          <p>
+            HUGO karkaso universalumas leido greitai generuoti visus puslapius
+            dėl beveik momentinio įkėlimo greičio. Tai taip pat sumažina
+            tikimybę, kad svetainė bus atakuojama. Mums taip pat pavyko gerokai
+            padidinti kliento svetainės lankomumą. Kita problema, kurią reikėjo
+            išspręsti, buvo tai, kad klientui reikėjo savarankiškai redaguoti
+            tam tikrus svetainės elementus. Mes įdiegėme "Headless CMS
+            Forestry.io" (dar vadinamą "Tina.io"), kuri leido atlikti norimus
+            veiksmus.
+            <br /><br />
+            Naudota technologija: HUGO
+          </p>
+        </div>
+        <div>
+          <img class="portfolio-img" src="/img/portfolio-img/centrl.webp" />
+        </div>
+      </div>
+
+      <div class="portfolio-card">
+        <div>
+          <img class="portfolio-img" src="/img/portfolio-img/crm.webp" />
+        </div>
+        <div>
+          <h2>CRM sistema</h2>
+          <p>
+            Sukūrėme išsamią "Junglee" informacinę sistemą, skirtą ne visą darbo
+            dieną dirbantiems darbuotojams, darbuotojams dirbantiems pilnu
+            etatu, pinigų srautų, mokėjimų ir statistikos valdymui. Tūkstančius
+            darbo vietų kiekvieną mėnesį prižiūrėti rankiniu būdu buvo
+            nebeįmanoma. Siekdami palaikyti "Junglee" augimą, sukūrėme naują
+            vidaus CRM sistemą nuo nulio. Mūsų pasiekimas - ne tik suprogramuota
+            sistema, bet ir tiksliai užfiksuoti ir atvaizduoti įmonės vidaus
+            procesai, atliekant intensyvią analizę ir bendraujant su klientu.
+            Perėjimas prie naujosios sistemos buvo sklandus, todėl klientas nuo
+            pat pirmos dienos buvo ja patenkintas.
+
+            <br /><br />
+            Naudotos technologijos: Vue.js, PHP, Laravel
+          </p>
+        </div>
+      </div>
+
+      <div class="portfolio-card">
+        <div>
+          <h2>Bendradarbiavimas kuriant žiniatinklio programas</h2>
+          <p>
+            Bendradarbiaudami su "UserTechnologies" teikėme užsakomąsias
+            žiniatinklio programų kūrimo paslaugas. Dirbdami kartu su jų vidine
+            komanda, daugiausia dėmesio skyrėme frontend'o programavimui, kartu
+            palaikydami ryšį su programos Backend'u. Šiam tikslui naudojome
+            "React JS" biblioteką, leidžiančią greitai ir lanksčiai kurti
+            vartotojo sąsają. "React" glaudžiai integruota su "React Native" -
+            "JavaScript" biblioteka, skirta įvairioms mobiliosioms programėlėms
+            "iOS" ir "Android" kurti.
+
+            <br /><br />
+            Naudotos technologijos: React Native, React
+          </p>
+        </div>
+        <div>
+          <img class="portfolio-img" src="/img/portfolio-img/web.webp" />
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+
+    <div class="footer">
+      <div>
+        <a href="/index.html#"
+          ><img class="logo-foot" src="img/SVG/logo-white.svg"
+        /></a>
+      </div>
+
+      <div class="privacy-text">
+        <h2><a href="/privacy-policy.html">Privacy Policy</a></h2>
+        <h2>© 2023 Devnexis. All rights reserved.</h2>
+      </div>
+
+      <div class="icons">
+        <a clas="fb" href="https://www.facebook.com/devnexis"
+          ><img src="/img/fb-icon.png"
+        /></a>
+        <a clas="fb" href="https://www.linkedin.com/company/devnexis/"
+          ><img src="/img/linkedin-icon.png"
+        /></a>
+      </div>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
